@@ -60,10 +60,10 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download
 GEOIP,CN, 🎯 全球直连,no-resolve
 
 # ================= 4. 其他国外流量（全部走你在主界面选的节点） =================
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, 🚀 节点选择, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, PROXY
 
 # ================= 5. 兜底规则 =================
-FINAL, 🚀 节点选择
+FINAL, PROXY
 
 [Host]
 localhost = 127.0.0.1
