@@ -51,7 +51,7 @@ RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main
 DOMAIN-SUFFIX,imap.gmail.com, 🇺🇲 美国节点
 
 # ================= 3. 国内流量直连 =================
-RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
+# RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, 🎯 全球直连, update-interval = 86400
