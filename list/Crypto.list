@@ -2,10 +2,13 @@
 # REPO: https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/Crypto.list
 # UPDATED: 2026-10-04
 
-# > Binance
+# ==========================================
+# > Binance (币安)
+# ==========================================
 # 拼图/人机验证服务（必留：解决验证码卡死/加载失败）
 DOMAIN-SUFFIX,saasfap.com
 DOMAIN-SUFFIX,saasfap.net
+
 # 核心主站/API与静态资源
 DOMAIN-SUFFIX,bin.finance
 DOMAIN-SUFFIX,binance.cc
@@ -26,6 +29,7 @@ DOMAIN-SUFFIX,binanceapi.com
 DOMAIN-SUFFIX,binancecnt.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bntrace.com
+
 # 活跃客户端与镜像备用域名
 DOMAIN-SUFFIX,binancezh.be
 DOMAIN-SUFFIX,binancezh.biz
@@ -37,6 +41,7 @@ DOMAIN-SUFFIX,binancezh.pro
 DOMAIN-SUFFIX,binancezh.top
 DOMAIN-SUFFIX,bnappzh.co
 DOMAIN-SUFFIX,bnappzh.com
+
 # 链上生态与 Web3
 DOMAIN-SUFFIX,bsc.getblock.io
 DOMAIN-SUFFIX,bscscan.com
@@ -46,7 +51,106 @@ PROCESS-NAME,Binance.exe
 DOMAIN-KEYWORD,binance
 DOMAIN-KEYWORD,bnappzh
 
+# ==========================================
+# > OKX (欧易)
+# ==========================================
+DOMAIN-SUFFIX,okcoin.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okg.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx.com.hk
+DOMAIN-SUFFIX,okx.link
+DOMAIN-SUFFIX,okx.mobi
+DOMAIN-SUFFIX,okx.site
+DOMAIN-SUFFIX,okx.top
+DOMAIN-SUFFIX,okx-cdn.com
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
+DOMAIN-SUFFIX,okxcdn.com
+DOMAIN-SUFFIX,okxstatic.com
+DOMAIN-KEYWORD,okex
+DOMAIN-KEYWORD,okx
+
+# ==========================================
+# > Bitget (含 Bitget Wallet)
+# ==========================================
+DOMAIN-SUFFIX,bgcimg.com
+DOMAIN-SUFFIX,bgimg.com
+DOMAIN-SUFFIX,bgstatic.com
+DOMAIN-SUFFIX,bitget.app
+DOMAIN-SUFFIX,bitget.cloud
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.fit
+DOMAIN-SUFFIX,bitget.info
+DOMAIN-SUFFIX,bitget.online
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitget.vip
+DOMAIN-SUFFIX,bitgetapi.com
+DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-SUFFIX,bitkeep.org
+DOMAIN-SUFFIX,bitkeep.vip
+DOMAIN-KEYWORD,bitget
+DOMAIN-KEYWORD,bitkeep
+
+# ==========================================
+# > SafePal (钱包与金融服务)
+# ==========================================
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
+DOMAIN-SUFFIX,safepal.net
+DOMAIN-KEYWORD,safepal
+
+# ==========================================
+# > Kraken (海妖交易所)
+# ==========================================
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.io
+DOMAIN-SUFFIX,kraken.app
+DOMAIN-SUFFIX,payward.com
+DOMAIN-KEYWORD,kraken
+
+# ==========================================
+# > Bybit
+# ==========================================
+DOMAIN-SUFFIX,bitverse.zone
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.net
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-KEYWORD,bybit
+
+# ==========================================
+# > Gate.io (芝麻开门)
+# ==========================================
+DOMAIN-SUFFIX,gate.ac
+DOMAIN-SUFFIX,gate.biz
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gate.cx
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate.site
+DOMAIN-SUFFIX,gate.tv
+DOMAIN-SUFFIX,gateapi.com
+DOMAIN-SUFFIX,gateapi.io
+DOMAIN-SUFFIX,gateimg.com
+DOMAIN-SUFFIX,gateio.live
+DOMAIN-SUFFIX,gateio.pro
+DOMAIN-SUFFIX,gateio.services
+DOMAIN-SUFFIX,gateio.ws
+DOMAIN-SUFFIX,gatepay.io
+DOMAIN-KEYWORD,gateio
+
+# ==========================================
 # > HTX / Huobi (火币)
+# ==========================================
 DOMAIN-SUFFIX,bitderiv.com
 DOMAIN-SUFFIX,hbfile.net
 DOMAIN-SUFFIX,heco-scan.com
@@ -73,75 +177,3 @@ DOMAIN-SUFFIX,huobitoken.com
 PROCESS-NAME,Huobi.exe
 DOMAIN-KEYWORD,htx
 DOMAIN-KEYWORD,huobi
-
-# > OKX (欧易)
-DOMAIN-SUFFIX,okcoin.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okg.com
-DOMAIN-SUFFIX,oklink.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,okx.com.hk
-DOMAIN-SUFFIX,okx.link
-DOMAIN-SUFFIX,okx.mobi
-DOMAIN-SUFFIX,okx.site
-DOMAIN-SUFFIX,okx.top
-DOMAIN-SUFFIX,okx-cdn.com
-DOMAIN-SUFFIX,okx-dns.com
-DOMAIN-SUFFIX,okx-dns1.com
-DOMAIN-SUFFIX,okx-dns2.com
-DOMAIN-SUFFIX,okxcdn.com
-DOMAIN-SUFFIX,okxstatic.com
-DOMAIN-KEYWORD,okex
-DOMAIN-KEYWORD,okx
-
-# > Bybit
-DOMAIN-SUFFIX,bitverse.zone
-DOMAIN-SUFFIX,byabcde.com
-DOMAIN-SUFFIX,byapps.net
-DOMAIN-SUFFIX,bybdc6.com
-DOMAIN-SUFFIX,bybit.biz
-DOMAIN-SUFFIX,bybit.cloud
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybit.net
-DOMAIN-SUFFIX,bybit-global.com
-DOMAIN-SUFFIX,bybitglobal.com
-DOMAIN-SUFFIX,bycsi.com
-DOMAIN-SUFFIX,byd3c3.com
-DOMAIN-KEYWORD,bybit
-
-# > Gate.io (芝麻开门)
-DOMAIN-SUFFIX,gate.ac
-DOMAIN-SUFFIX,gate.biz
-DOMAIN-SUFFIX,gate.com
-DOMAIN-SUFFIX,gate.cx
-DOMAIN-SUFFIX,gate.io
-DOMAIN-SUFFIX,gate.site
-DOMAIN-SUFFIX,gate.tv
-DOMAIN-SUFFIX,gateapi.com
-DOMAIN-SUFFIX,gateapi.io
-DOMAIN-SUFFIX,gateimg.com
-DOMAIN-SUFFIX,gateio.live
-DOMAIN-SUFFIX,gateio.pro
-DOMAIN-SUFFIX,gateio.services
-DOMAIN-SUFFIX,gateio.ws
-DOMAIN-SUFFIX,gatepay.io
-DOMAIN-KEYWORD,gateio
-
-# > Bitget (含 Bitget Wallet)
-DOMAIN-SUFFIX,bgcimg.com
-DOMAIN-SUFFIX,bgimg.com
-DOMAIN-SUFFIX,bgstatic.com
-DOMAIN-SUFFIX,bitget.app
-DOMAIN-SUFFIX,bitget.cloud
-DOMAIN-SUFFIX,bitget.com
-DOMAIN-SUFFIX,bitget.fit
-DOMAIN-SUFFIX,bitget.info
-DOMAIN-SUFFIX,bitget.online
-DOMAIN-SUFFIX,bitget.site
-DOMAIN-SUFFIX,bitget.vip
-DOMAIN-SUFFIX,bitgetapi.com
-DOMAIN-SUFFIX,bitkeep.com
-DOMAIN-SUFFIX,bitkeep.org
-DOMAIN-SUFFIX,bitkeep.vip
-DOMAIN-KEYWORD,bitget
-DOMAIN-KEYWORD,bitkeep
