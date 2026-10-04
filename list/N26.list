@@ -1,0 +1,22 @@
+# NAME: BybitN26
+# REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/N26.list
+# UPDATED: 2025-07-27 
+
+# ==========================================
+# > N26 Bank (德国数字银行)
+# ==========================================
+# 核心主站与服务
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,n26.de
+DOMAIN-SUFFIX,n26.eu
+DOMAIN-SUFFIX,n26.io
+DOMAIN-SUFFIX,n26.services
+
+# 核心 API 与后端技术接口（必留：App 登录及网银交互的核心域名）
+DOMAIN-SUFFIX,tech26.de
+
+# 历史/重定向域名
+DOMAIN-SUFFIX,number26.de
+
+# 关键字兜底
+DOMAIN-KEYWORD,n26
