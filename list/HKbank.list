@@ -36,3 +36,19 @@ DOMAIN-SUFFIX,icbcasia.com
 DOMAIN-SUFFIX,icbc.com.hk
 DOMAIN-KEYWORD,icbcasia
 
+# ==========================================
+# > Wise (建议：走全球直连)
+# ==========================================
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-KEYWORD,wise
+
+# ==========================================
+# > OCBC (华侨银行 - 建议：走全球直连 或 新加坡节点)
+# ==========================================
+DOMAIN-SUFFIX,ocbc.com
+DOMAIN-SUFFIX,ocbc.com.sg
+DOMAIN-SUFFIX,ocbc.cn
+DOMAIN-SUFFIX,ocbc.com.hk
+DOMAIN-KEYWORD,ocbc
+
