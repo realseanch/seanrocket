@@ -42,7 +42,7 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.li
 RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/Crypto.list, 🇼🇸 台湾节点, update-interval = 86400
 
 # >> Bybit / N26 走德国节点
-RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/BybitN26.list, 🇩🇪 德国节点, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/N26.list, 🇩🇪 德国节点, update-interval = 86400
 
 # >> Gmail IMAP 走美国节点
 DOMAIN-SUFFIX,imap.gmail.com, 🇺🇲 美国节点
