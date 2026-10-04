@@ -1,6 +1,38 @@
 # NAME: HKbank
 # REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/HKbank.list
-# UPDATED: 2025-07-27 
+# UPDATED: 2026-10-04
+# ==========================================
+# > 香港汇丰银行 (HSBC HK & 恒生银行)
+# ==========================================
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,payme.hsbc
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hangseng.com.hk
+DOMAIN-KEYWORD,hsbc
 
-# DOMAIN-SUFFIX,hsbc.com.hk
+# ==========================================
+# > 香港东亚银行 (BEA)
+# ==========================================
+DOMAIN-SUFFIX,hkbea.com
+DOMAIN-SUFFIX,hkbea-cyberbanking.com
+DOMAIN-SUFFIX,bea.com.hk
+DOMAIN-KEYWORD,hkbea
+
+# ==========================================
+# > 中银香港 (BOCHK & BOC Pay)
+# ==========================================
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,bocpay.com.hk
+DOMAIN-SUFFIX,boci.com.hk
+DOMAIN-SUFFIX,bocgroup.com
+DOMAIN-KEYWORD,bochk
+
+# ==========================================
+# > 工银亚洲 (ICBC Asia)
+# ==========================================
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN-SUFFIX,icbc.com.hk
+DOMAIN-KEYWORD,icbcasia
 
