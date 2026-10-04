@@ -1,55 +1,78 @@
 # NAME: HKbank
 # REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/HKbank.list
 # UPDATED: 2026-10-04
+
 # ==========================================
 # > 香港汇丰银行 (HSBC HK & 恒生银行)
 # ==========================================
-DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-SUFFIX,hsbc.com
-DOMAIN-SUFFIX,hsbcnet.com
-DOMAIN-SUFFIX,payme.hsbc
 DOMAIN-SUFFIX,hangseng.com
 DOMAIN-SUFFIX,hangseng.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,payme.hsbc
+DOMAIN-KEYWORD,hangseng
 DOMAIN-KEYWORD,hsbc
 
 # ==========================================
-# > 香港东亚银行 (BEA)
+# > 香港东亚银行 (BEA & BEA Mall)
 # ==========================================
+DOMAIN-SUFFIX,bea.com.hk
 DOMAIN-SUFFIX,hkbea.com
 DOMAIN-SUFFIX,hkbea-cyberbanking.com
-DOMAIN-SUFFIX,bea.com.hk
 DOMAIN-KEYWORD,hkbea
 
 # ==========================================
-# > 中银香港 (BOCHK & BOC Pay)
+# > 中银香港 (BOCHK, BOC Pay & 信用卡)
 # ==========================================
-DOMAIN-SUFFIX,bochk.com
-DOMAIN-SUFFIX,bocpay.com.hk
-DOMAIN-SUFFIX,boci.com.hk
+DOMAIN-SUFFIX,boccreditcard.com.hk
 DOMAIN-SUFFIX,bocgroup.com
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,boci.com.hk
+DOMAIN-SUFFIX,bocpay.com.hk
+DOMAIN-SUFFIX,bocservices.com.hk
 DOMAIN-KEYWORD,bochk
 
 # ==========================================
 # > 工银亚洲 (ICBC Asia)
 # ==========================================
-DOMAIN-SUFFIX,icbcasia.com
 DOMAIN-SUFFIX,icbc.com.hk
+DOMAIN-SUFFIX,icbcasia.com
 DOMAIN-KEYWORD,icbcasia
+
+# ==========================================
+# > ZA Bank (众安银行 & ZA 生态)
+# ==========================================
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,zabank.com.hk
+DOMAIN-SUFFIX,zainsure.com.hk
+DOMAIN-SUFFIX,zaintl.com
+DOMAIN-SUFFIX,zaintl.hk
+DOMAIN-KEYWORD,zabank
+
+# ==========================================
+# > EleBank 大象银行 (原天星银行 Airstar Bank)
+# ==========================================
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,elebank.com
+DOMAIN-KEYWORD,airstarbank
+DOMAIN-KEYWORD,elebank
 
 # ==========================================
 # > Wise (建议：走全球直连)
 # ==========================================
-DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,wise.com
 DOMAIN-KEYWORD,wise
 
 # ==========================================
 # > OCBC (华侨银行 - 建议：走全球直连 或 新加坡节点)
 # ==========================================
-DOMAIN-SUFFIX,ocbc.com
-DOMAIN-SUFFIX,ocbc.com.sg
 DOMAIN-SUFFIX,ocbc.cn
+DOMAIN-SUFFIX,ocbc.com
 DOMAIN-SUFFIX,ocbc.com.hk
+DOMAIN-SUFFIX,ocbc.com.sg
 DOMAIN-KEYWORD,ocbc
 
 # ==========================================
@@ -70,4 +93,7 @@ DOMAIN-SUFFIX,ifastps.com.hk
 DOMAIN-KEYWORD,ifast
 DOMAIN-KEYWORD,ifastgb
 
-
+# ==========================================
+# > iOS 银行 App 设备安全指纹认证 (ThreatMetrix / 防卡死必留)
+# ==========================================
+DOMAIN-SUFFIX,online-metrix.net
