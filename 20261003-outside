@@ -39,13 +39,11 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.li
 
 # ================= 2. 特定服务分流（最高优先级，不受主界面手动切换影响） =================
 # >> 加密货币交易所走台湾节点
+RULE-SET,https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/binance, 🇼🇸 台湾节点, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/okx, 🇼🇸 台湾节点, update-interval = 86400
 DOMAIN-KEYWORD,binance, 🇼🇸 台湾节点
 DOMAIN-KEYWORD,okx, 🇼🇸 台湾节点
 DOMAIN-KEYWORD,bitget, 🇼🇸 台湾节点
-
-RULE-SET,https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/binance, 🇼🇸 台湾节点, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/okx, 🇼🇸 台湾节点, update-interval = 86400
-
 DOMAIN-KEYWORD,N26, 🇩🇪 德国节点
 
 # >> Gmail IMAP 走美国节点
