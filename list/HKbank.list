@@ -52,3 +52,22 @@ DOMAIN-SUFFIX,ocbc.cn
 DOMAIN-SUFFIX,ocbc.com.hk
 DOMAIN-KEYWORD,ocbc
 
+# ==========================================
+# > iFAST Global Bank (奕丰全球银行)
+# ==========================================
+DOMAIN-SUFFIX,ezremit.com
+DOMAIN-SUFFIX,fsmone.com
+DOMAIN-SUFFIX,fundsupermart.com
+DOMAIN-SUFFIX,ifastcorp.com
+DOMAIN-SUFFIX,ifastfinancial.com
+DOMAIN-SUFFIX,ifastfinancial.com.hk
+DOMAIN-SUFFIX,ifastgb.co.uk
+DOMAIN-SUFFIX,ifastgb.com
+DOMAIN-SUFFIX,ifastgm.com
+DOMAIN-SUFFIX,ifastgm.com.sg
+DOMAIN-SUFFIX,ifastps.com
+DOMAIN-SUFFIX,ifastps.com.hk
+DOMAIN-KEYWORD,ifast
+DOMAIN-KEYWORD,ifastgb
+
+
