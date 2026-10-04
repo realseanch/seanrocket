@@ -41,7 +41,10 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.li
 # >> 加密货币交易所走台湾节点
 RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/Crypto.list, 🇼🇸 台湾节点, update-interval = 86400
 
-# >> Bybit / N26 走德国节点
+# >> 香港银行走香港节点
+RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/HKbank.list, 🇭🇰 香港节点, update-interval = 86400
+
+# >> N26 走德国节点
 RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/N26.list, 🇩🇪 德国节点, update-interval = 86400
 
 # >> Gmail IMAP 走美国节点
