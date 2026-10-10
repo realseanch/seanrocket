@@ -48,7 +48,7 @@ RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main
 RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/N26.list, 🇩🇪 德国节点, update-interval = 86400
 
 # >> Gmail IMAP 走美国节点
-DOMAIN-SUFFIX,imap.gmail.com, 🇭🇰 香港节点, update-interval = 86400
+DOMAIN-SUFFIX,imap.gmail.com, 🇺🇲 美国节点, update-interval = 86400
 
 # ================= 3. 国内流量直连 =================
 # RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
