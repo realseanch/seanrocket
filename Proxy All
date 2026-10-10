@@ -35,7 +35,7 @@ dns-direct-fallback-proxy = true
 [Rule]
 # ================= 1. 局域网直连 =================
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, 🎯 全球直连, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, 🎯 全球直连, update-interval = 86400
+#RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, 🎯 全球直连, update-interval = 86400
 
 # ================= 2. 特定服务分流（最高优先级，不受主界面手动切换影响） =================
 # >> 加密货币交易所走台湾节点
