@@ -1,22 +1,53 @@
 # NAME: BybitN26
 # REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/N26.list
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-09
 
 # ==========================================
-# > N26 Bank (德国数字银行)
+# > N26 Bank 官方主站与 API 接口
 # ==========================================
-# 核心主站与服务
 DOMAIN-SUFFIX,n26.com
 DOMAIN-SUFFIX,n26.de
 DOMAIN-SUFFIX,n26.eu
 DOMAIN-SUFFIX,n26.io
 DOMAIN-SUFFIX,n26.services
-
-# 核心 API 与后端技术接口（必留：App 登录及网银交互的核心域名）
+DOMAIN-SUFFIX,n26.fr
+DOMAIN-SUFFIX,n26.es
+DOMAIN-SUFFIX,n26.it
+DOMAIN-SUFFIX,n26.co
+DOMAIN-SUFFIX,n26.insure
+DOMAIN-SUFFIX,n26.financial
+DOMAIN-SUFFIX,n26-space.com
 DOMAIN-SUFFIX,tech26.de
-
-# 历史/重定向域名
 DOMAIN-SUFFIX,number26.de
 
 # 关键字兜底
 DOMAIN-KEYWORD,n26
+
+# ==========================================
+# > N26 App 必备第三方服务依赖（KYC/风控/客服）
+# ==========================================
+# KYC 身份认证 (IDnow / Fourthline / Sumsub)
+DOMAIN-SUFFIX,idnow.de
+DOMAIN-SUFFIX,idnow.eu
+DOMAIN-SUFFIX,idnow.net
+DOMAIN-SUFFIX,fourthline.com
+DOMAIN-SUFFIX,sumsub.com
+DOMAIN-SUFFIX,sumsub.io
+
+# 设备指纹与风控 (ThreatMetrix / Adjust / Arkose)
+DOMAIN-SUFFIX,threatmetrix.com
+DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,funcaptcha.com
+
+# App 内客服与日志诊断
+DOMAIN-SUFFIX,salesforce.com
+DOMAIN-SUFFIX,force.com
+DOMAIN-SUFFIX,liveagent.com
+DOMAIN-SUFFIX,ada.cx
+DOMAIN-SUFFIX,ada.support
+DOMAIN-SUFFIX,instabug.com
+DOMAIN-SUFFIX,datadoghq.eu
+DOMAIN-SUFFIX,datadoghq.com
