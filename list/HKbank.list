@@ -1,6 +1,6 @@
 # NAME: HKbank
 # REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/HKbank.list
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-10
 
 # ==========================================
 # > 香港汇丰银行 (HSBC HK & 恒生银行)
@@ -41,6 +41,32 @@ DOMAIN-SUFFIX,icbcasia.com
 DOMAIN-KEYWORD,icbcasia
 
 # ==========================================
+# > 渣打银行香港 (Standard Chartered HK)
+# ==========================================
+DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,sc.com.hk
+DOMAIN-KEYWORD,standardchartered
+
+# ==========================================
+# > 花旗银行香港 (Citibank HK)
+# ==========================================
+DOMAIN-SUFFIX,citibank.com.hk
+DOMAIN-SUFFIX,citigroup.com
+
+# ==========================================
+# > 星展银行香港 (DBS HK)
+# ==========================================
+DOMAIN-SUFFIX,dbs.com
+DOMAIN-SUFFIX,dbs.com.hk
+DOMAIN-KEYWORD,dbs
+
+# ==========================================
+# > 建行亚洲 (CCB Asia) & 招商永隆 (CMB Wing Lung)
+# ==========================================
+DOMAIN-SUFFIX,asia.ccb.com
+DOMAIN-SUFFIX,cmbwinglungbank.com
+
+# ==========================================
 # > ZA Bank (众安银行 & ZA 生态)
 # ==========================================
 DOMAIN-SUFFIX,za.group
@@ -58,6 +84,17 @@ DOMAIN-SUFFIX,airstarbank.com
 DOMAIN-SUFFIX,elebank.com
 DOMAIN-KEYWORD,airstarbank
 DOMAIN-KEYWORD,elebank
+
+# ==========================================
+# > 其他香港持牌虚拟银行 (Virtual Banks)
+# ==========================================
+DOMAIN-SUFFIX,mox.com
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,livibank.com
+DOMAIN-SUFFIX,livi.bk
+DOMAIN-SUFFIX,fusionbank.com
+DOMAIN-SUFFIX,paob.com.hk
+DOMAIN-KEYWORD,moxbank
 
 # ==========================================
 # > Wise (建议：走全球直连)
@@ -97,3 +134,6 @@ DOMAIN-KEYWORD,ifastgb
 # > iOS 银行 App 设备安全指纹认证 (ThreatMetrix / 防卡死必留)
 # ==========================================
 DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,iovation.com
+DOMAIN-SUFFIX,iesnare.com
+
