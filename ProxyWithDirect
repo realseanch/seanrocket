@@ -43,7 +43,6 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list, 🎯 全球直连, update-interval = 86400
-GEOIP,CN, 🎯 全球直连,no-resolve
 
 # ================= 3. 特定服务分流（最高优先级，不受主界面手动切换影响） =================
 # >> 加密货币交易所走台湾节点
@@ -62,6 +61,7 @@ RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, PROXY
 
 # ================= 5. 兜底规则 =================
+GEOIP,CN, 🎯 全球直连,no-resolve
 FINAL, PROXY
 
 [Host]
