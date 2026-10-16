@@ -37,7 +37,15 @@ dns-direct-fallback-proxy = true
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, 🎯 全球直连, update-interval = 86400
 
-# ================= 2. 特定服务分流（最高优先级，不受主界面手动切换影响） =================
+# ================= 2. 国内流量直连 =================
+# RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, 🎯 全球直连, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, 🎯 全球直连, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, 🎯 全球直连, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list, 🎯 全球直连, update-interval = 86400
+GEOIP,CN, 🎯 全球直连,no-resolve
+
+# ================= 3. 特定服务分流（最高优先级，不受主界面手动切换影响） =================
 # >> 加密货币交易所走台湾节点
 RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main/list/Crypto.list, 🇼🇸 台湾节点, update-interval = 86400
 
@@ -49,14 +57,6 @@ RULE-SET,https://raw.githubusercontent.com/realseanch/seanrocket/refs/heads/main
 
 # >> Gmail IMAP 走美国节点
 # DOMAIN-SUFFIX,imap.gmail.com, 🇺🇲 美国节点, update-interval = 86400
-
-# ================= 3. 国内流量直连 =================
-# RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, 🎯 全球直连, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, 🎯 全球直连, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, 🎯 全球直连, update-interval = 86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list, 🎯 全球直连, update-interval = 86400
-GEOIP,CN, 🎯 全球直连,no-resolve
 
 # ================= 4. 其他国外流量（全部走你在主界面选的节点） =================
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, PROXY
