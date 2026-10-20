@@ -2,23 +2,4 @@
 # REPO: https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list
 # UPDATED: 2025-08-04 
 
-DOMAIN-SUFFIX,hsbc.com.cn
-DOMAIN-SUFFIX,hsbcqh.com.cn
-DOMAIN-SUFFIX,hsbcinsurance.com.cn
-DOMAIN-SUFFIX,marriott.com
-
-DOMAIN-SUFFIX,hkbea.com
-
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qq.com.cn
-DOMAIN-SUFFIX,wechatpay.cn
-DOMAIN-SUFFIX,tencent-cloud.net
-DOMAIN-SUFFIX,aliapp.org
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipayobjects.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,uc.cn
-DOMAIN-SUFFIX,ucweb.com
+DOMAIN-SUFFIX,wxlekao.com
