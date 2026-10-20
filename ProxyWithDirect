@@ -48,6 +48,7 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDom
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, 🎯 全球直连, update-interval = 86400
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list, 🎯 全球直连, update-interval = 86400
+RULE-SET,https://raw.githubusercontent.com/multsean/seanrocket/refs/heads/main/list/Direct.list, 🎯 全球直连, update-interval = 86400
 
 # ================= 3. 特定服务分流（最高优先级） =================
 # >> 加密货币交易所走台湾节点
